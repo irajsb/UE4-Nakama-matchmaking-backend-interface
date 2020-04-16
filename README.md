@@ -21,3 +21,16 @@ https://blueprintue.com/blueprint/epzpnat1/ .
 2.server ip is submitted in a array .
 3. when match is made nakama returns port and ip as a string instead of match id (plugin only passes servers which were pinged less than a  constant time .
 
+
+Getportfunction :
+```sh
+int ATankmode::GetPort()
+{
+	int output;
+	if (GetWorld())
+		output = GetWorld()->URL.Port;
+	else output = -1;
+	return output;
+}
+
+```
