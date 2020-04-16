@@ -1,12 +1,18 @@
 # UE4-Nakama-matchmaking-backend-interface
 This minimalistic go plugin example for nakama shows how you can handle matchmaking with nakama and unreal engine default net code .
 #How to use 
+
 -install this plugin for sending jsons https://github.com/Stefander/JSONQuery.
+
 -install nakama  https://github.com/heroiclabs/nakama-unreal authenticate and make a rtclient .
+
 -Create a minimal go plugin https://github.com/heroiclabs/nakama/tree/master/sample_go_module.
+
 -paste  this go code into your plugin code.
+
 -implement this blueprints inside your game (this should be called only by dedicated servers . better be placed in GameMode)
 https://blueprintue.com/blueprint/epzpnat1/ .
+
 
 
 
