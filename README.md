@@ -1,5 +1,5 @@
 # UE4-Nakama-matchmaking-backend-interface
-This minimalistic go plugin example for nakama shows how you can handle matchmaking with nakama and unreal engine default net code .
+This minimalistic go plugin example for nakama shows how you can handle "Debug" matchmaking with nakama and unreal engine default net code .
 #How to use 
 
 -install this plugin for sending jsons https://github.com/Stefander/JSONQuery.
